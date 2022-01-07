@@ -4,7 +4,7 @@ class Morpion:
     grid = []
 
     def __init__(self):
-        joueur = 1
+        self.currentPlayer = 1
         self.grid=[" "," "," "," "," "," "," "," "," "]
 
     def showGrid(self):
